@@ -22,3 +22,9 @@ Server is run by **Python 3.8.5** for 64-bit.
 ## DATABASE
 
 based on https://fastapi.tiangolo.com/tutorial/sql-databases/
+
+### Development
+
+`git push staging main` pushes the code to the staging app on heroku. This allows us to test that everything works well in the online heroku environment before pushing our changes to production.
+
+`git push production main` pushes the code to the production app on heroku.
